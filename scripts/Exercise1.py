@@ -10,5 +10,3 @@ def string_reverser(our_string):
 
     # TODO: Write your solution here
     return our_string
-
-    pass
