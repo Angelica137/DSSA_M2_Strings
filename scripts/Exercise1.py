@@ -9,4 +9,10 @@ def string_reverser(our_string):
     """
 
     # TODO: Write your solution here
-    return our_string
+    string = ""
+    i = len(our_string) - 1
+    while i >= 0:
+        string += our_string[i]
+        i -= 1
+        print(string)
+    return string
