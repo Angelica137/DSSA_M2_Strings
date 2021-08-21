@@ -10,8 +10,6 @@ def string_reverser(our_string):
 
     # TODO: Write your solution here
     string = ""  # O(1)
-    i = len(our_string) - 1  # O(1)
-    while i >= 0:  # O(n)
-        string += our_string[i]  # O(1)
-        i -= 1  # O(1)
+    for i in range(len(our_string)):  # O(n)
+        string += our_string[len(our_string) - 1 - i]  # O(1)
     return string  # O(1)
