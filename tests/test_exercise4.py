@@ -19,3 +19,7 @@ def test_hamming_distance_returns_None2():
 
 def test_hamming_distance_returns_None2():
     assert hamming_distance('A gentleman', 'Elegant men') == 9
+
+
+def test_hamming_distance_returns_None2():
+    assert hamming_distance('0101010100011101', '0101010100010001') == 2
