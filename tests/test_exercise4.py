@@ -15,3 +15,7 @@ def test_hamming_distance_returns_1():
 
 def test_hamming_distance_returns_None2():
     assert hamming_distance('Slot machines', 'Cash lost in me') == None
+
+
+def test_hamming_distance_returns_None2():
+    assert hamming_distance('A gentleman', 'Elegant men') == 9
