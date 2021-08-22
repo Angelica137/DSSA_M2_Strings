@@ -15,3 +15,12 @@ def test_anagram_length_differ_3():
 
 def test_anagram_length_differ_4():
     assert anagram_checker('Slot machines', 'Cash lost in me') == True
+
+
+def test_anagram_length_differ_4():
+    assert anagram_checker('A gentleman', 'Elegant men') == False
+
+
+def test_anagram_length_differ_4():
+    assert anagram_checker('Time and tide wait for no man',
+                           'Notified madman into water') == True
