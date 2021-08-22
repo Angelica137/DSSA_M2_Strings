@@ -35,3 +35,7 @@ Note - You can use built-in methods `len()`, `lower()` and `sort()` on stri
 3. Reverse words
 
 Given a sentence, reverse each word in the sentence while keeping the order the same!
+
+4. Hamming distance
+
+In information theory, the Hamming distance between two strings of equal length is the number of positions at which the corresponding symbols are different. Calculate the Hamming distace for the given test cases.
