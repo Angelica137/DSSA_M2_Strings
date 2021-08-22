@@ -21,7 +21,6 @@ def hamming_distance(str1, str2):
 
 
 # Test Cases
-print("Pass" if (10 == hamming_distance('ACTTGACCGGG', 'GATCCGGTACA')) else "Fail")
 print("Pass" if (1 == hamming_distance('shove', 'stove')) else "Fail")
 print("Pass" if (None == hamming_distance(
     'Slot machines', 'Cash lost in me')) else "Fail")

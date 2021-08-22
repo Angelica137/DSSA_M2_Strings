@@ -7,3 +7,7 @@ def test_hamming_distance_returns_None():
 
 def test_hamming_distance_returns_None():
     assert hamming_distance('ACTTGACCGGG', 'GATCCGGTACA') == 10
+
+
+def test_hamming_distance_returns_1():
+    assert hamming_distance('shove', 'stove') == 1
