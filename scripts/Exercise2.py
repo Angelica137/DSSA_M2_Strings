@@ -11,17 +11,9 @@ def anagram_checker(str1, str2):
     """
 
     # TODO: Write your solution here
-    str1_split = str1.split()
-    str1_join = "".join(str1_split)
-    str2_split = str2.split()
-    str2_join = "".join(str2_split)
-    if len(str1_join) != len(str2_join):
-        return False
-    else:
-        str1_arr = sorted(str1_join.lower())
-        print(str1_arr)
-
-        str2_arr = sorted(str2_join.lower())
-        print(str2_arr)
-        if str1_arr == str2_arr:
+    str1 = str1.replace(" ", "").lower()
+    str2 = str2.replace(" ", "").lower()
+    if len(str1) == len(str2):
+        if sorted(str1) == sorted(str2):
             return True
+    return False
