@@ -9,8 +9,10 @@ def word_flipper(our_string):
     """
 
     # TODO: Write your solution here
-
-    pass
+    reverse_str = ""
+    for i in range(len(our_string)):
+        reverse_str += our_string[len(our_string) - 1 - i]
+    return reverse_str
 
 # Test Cases
 
