@@ -11,12 +11,13 @@ def anagram_checker(str1, str2):
     """
 
     # TODO: Write your solution here
+    print(len(str1))
+    print(len(str2))
     if len(str1) != len(str2):
         return False
 
 
 # Test Cases
-print("Pass" if not (anagram_checker('water', 'waiter')) else "Fail")
 print("Pass" if anagram_checker('Dormitory', 'Dirty room') else "Fail")
 print("Pass" if anagram_checker('Slot machines', 'Cash lost in me') else "Fail")
 print("Pass" if not (anagram_checker('A gentleman', 'Elegant men')) else "Fail")
