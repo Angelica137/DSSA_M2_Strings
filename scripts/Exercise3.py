@@ -10,12 +10,8 @@ def word_flipper(our_string):
     # TODO: Write your solution here
     arr = our_string.split()
     for i in range(len(arr)):
-        reverse_str = ""
-        for j in range(len(arr[i])):
-            reverse_str += arr[i][len(arr[i]) - 1 - j]
-        arr[i] = reverse_str
-    arr = " ".join(arr)
-    return arr
+        arr[i] = arr[i][::-1]
+    return " ".join(arr)
 
 # Test Cases
 
