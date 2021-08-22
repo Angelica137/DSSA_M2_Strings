@@ -7,12 +7,15 @@ def word_flipper(our_string):
     Returns:
        string: String with words flipped
     """
-
     # TODO: Write your solution here
-    reverse_str = ""
-    for i in range(len(our_string)):
-        reverse_str += our_string[len(our_string) - 1 - i]
-    return reverse_str
+    arr = our_string.split()
+    for i in range(len(arr)):
+        reverse_str = ""
+        for j in range(len(arr[i])):
+            reverse_str += arr[i][len(arr[i]) - 1 - j]
+        arr[i] = reverse_str
+    arr = " ".join(arr)
+    return arr
 
 # Test Cases
 
