@@ -11,12 +11,11 @@ def hamming_distance(str1, str2):
     """
 
     # TODO: Write your solution here
+    if len(str1) != len(str2):
+        return None
 
-    pass
 
 # Test Cases
-
-
 print("Pass" if (10 == hamming_distance('ACTTGACCGGG', 'GATCCGGTACA')) else "Fail")
 print("Pass" if (1 == hamming_distance('shove', 'stove')) else "Fail")
 print("Pass" if (None == hamming_distance(
