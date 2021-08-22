@@ -30,3 +30,8 @@ You can assume the following about the input strings:
 - No special characters
 
 Note - You can use built-in methods `len()`, `lower()` and `sort()` on strings.
+
+
+3. Reverse words
+
+Given a sentence, reverse each word in the sentence while keeping the order the same!
